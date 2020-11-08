@@ -1,3 +1,6 @@
+import 'dart:ffi';
+
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:clima/utilities/constants.dart';
 
@@ -7,13 +10,14 @@ class CityScreen extends StatefulWidget {
 }
 
 class _CityScreenState extends State<CityScreen> {
+  String cityName;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('images/city_background.jpg'),
+            image: AssetImage('images/location_screen.jpg'),
             fit: BoxFit.cover,
           ),
         ),
@@ -24,7 +28,9 @@ class _CityScreenState extends State<CityScreen> {
               Align(
                 alignment: Alignment.topLeft,
                 child: FlatButton(
-                  onPressed: () {},
+                  onPressed: () {
+                   Navigator.pop(context);
+                  },
                   child: Icon(
                     Icons.arrow_back_ios,
                     size: 50.0,
@@ -33,10 +39,26 @@ class _CityScreenState extends State<CityScreen> {
               ),
               Container(
                 padding: EdgeInsets.all(20.0),
-                child: null,
-              ),
+                child: TextField(
+                   style: TextStyle(color: Colors.black,fontSize: 15.0),
+                   onChanged: (value){
+                     cityName=value;
+                   },
+                   decoration: InputDecoration(
+                     fillColor: Colors.white,
+                     hintText: "Enter City Name",
+                     hintStyle: TextStyle(color: Colors.grey),
+                     filled: true,
+                     border:OutlineInputBorder(borderRadius:BorderRadius.all(Radius.circular(15.0))) ,
+                     icon:Icon(Icons.location_city,size:40.0),
+                   ),
+                  ),
+                ),
+
               FlatButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pop(context,cityName);
+                },
                 child: Text(
                   'Get Weather',
                   style: kButtonTextStyle,
