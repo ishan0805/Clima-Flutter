@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\deviceapp\\projects\\Q-Climate\\build\\geolocator\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\503246db64dcbb120c121745b36c75fd\\play-services-base-17.0.0\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "E:\\deviceapp\\projects\\Q-Climate\\build\\geolocator\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\503246db64dcbb120c121745b36c75fd\\play-services-base-17.0.0\\res\\color\\common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "E:\\deviceapp\\projects\\Q-Climate\\build\\geolocator\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\503246db64dcbb120c121745b36c75fd\\play-services-base-17.0.0\\res\\color\\common_google_signin_btn_text_dark.xml"
+    }
+]

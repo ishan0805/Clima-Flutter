@@ -1,0 +1,96 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="co.appbrewery.clima"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:3:5-81
+11-->E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:3:22-78
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:4:5-66
+12-->E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <!--
+14     io.flutter.app.FlutterApplication is an android.app.Application that
+15         calls FlutterMain.startInitialization(this); in its onCreate method.
+16         In most cases you can leave this as-is, but you if you want to provide
+17         additional functionality it is fine to subclass or reimplement
+18         FlutterApplication and put your custom class here.
+19    -->
+20    <application
+20-->E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:10:5-35:19
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e91594602c73eba9f0c6fb1745d43dba\core-1.1.0\AndroidManifest.xml:24:18-86
+22        android:icon="@mipmap/ic_launcher"
+22-->E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:12:9-43
+23        android:label="clima" >
+23-->E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:11:9-30
+24        <activity
+24-->E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:13:9-34:20
+25            android:name="co.appbrewery.clima.MainActivity"
+25-->E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:14:13-41
+26            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+26-->E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:17:13-144
+27            android:hardwareAccelerated="true"
+27-->E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:18:13-47
+28            android:launchMode="singleTop"
+28-->E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:15:13-43
+29            android:theme="@style/LaunchTheme"
+29-->E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:16:13-47
+30            android:windowSoftInputMode="adjustResize" >
+30-->E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:19:13-55
+31
+32            <!--
+33                 This keeps the window background of the activity showing
+34                 until Flutter renders its first frame. It can be removed if
+35                 there is no splash screen (such as the default splash screen
+36                 defined in @style/LaunchTheme).
+37            -->
+38            <meta-data
+38-->E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:24:13-26:40
+39                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+39-->E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:25:17-82
+40                android:value="true" />
+40-->E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:26:17-37
+41            <meta-data
+41-->E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:27:13-29:37
+42                android:name="flutterEmbedding"
+42-->E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:28:17-48
+43                android:value="2" />
+43-->E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:29:17-34
+44
+45            <intent-filter>
+45-->E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:30:13-33:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:31:17-68
+46-->E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:31:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:32:17-76
+48-->E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:32:27-74
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\503246db64dcbb120c121745b36c75fd\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+52            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+52-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\503246db64dcbb120c121745b36c75fd\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+53            android:exported="false"
+53-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\503246db64dcbb120c121745b36c75fd\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+54            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+54-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\503246db64dcbb120c121745b36c75fd\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+55
+56        <meta-data
+56-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1565dccda1c63a0d358dbb57d2f9086a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+57            android:name="com.google.android.gms.version"
+57-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1565dccda1c63a0d358dbb57d2f9086a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+58            android:value="@integer/google_play_services_version" />
+58-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1565dccda1c63a0d358dbb57d2f9086a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+59    </application>
+60
+61</manifest>

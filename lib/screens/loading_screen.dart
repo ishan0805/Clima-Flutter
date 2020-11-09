@@ -18,12 +18,20 @@ class _LoadingScreenState extends State<LoadingScreen> {
      var weatherData = await WeatherModel().getLocationData();
      if(weatherData!=null)
      {
-       Navigator.push(context, MaterialPageRoute(builder: (context)=>LocationScreen(weatherData)));
+       var check =Navigator.push(context, MaterialPageRoute(builder: (context)=>LocationScreen(weatherData)));
+       if(check==null)
+         {
+           setState(() {
+
+           });
+         }
      }
    }
    catch(e)
    {
-     print(e);
+     setState(() {
+
+     });
    }
 
  }
@@ -31,16 +39,24 @@ class _LoadingScreenState extends State<LoadingScreen> {
   void initState() {
     super.initState();
     Location();
+ }
 
-  }
 
   @override
   Widget build(BuildContext context) {
+
+
     return Scaffold(
-      body: Center(
-        
-       child: SpinKitCircle(color: Colors.red,size: 50,),
-      ),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Center(
+            child: SpinKitCircle(color: Colors.red,size: 50,),
+          ),
+          Text("Getting your location , please turn on your GPS ",style: TextStyle(color: Colors.red,fontSize: 15.0),),
+        ],
+      )
+
     );
   }
 }
