@@ -19,6 +19,14 @@ class _LocationScreenState extends State<LocationScreen> {
   WeatherModel weatherCondition;
   void UpdateUI(dynamic weatherInformation) {
     setState(() {
+      if(weatherInformation==null)
+        {
+          temperature =0;
+          city='';
+          message='Some Error has occured';
+          emoji='';
+          return;
+        }
       temperature = (weatherInformation['main']['temp']).toInt();
       condition = weatherInformation['weather'][0]['id'];
       city = weatherInformation['name'];
@@ -80,7 +88,7 @@ class _LocationScreenState extends State<LocationScreen> {
                       print(cityName);
                       if(cityName!=null) {
                         var weatherData = await weatherCondition.getLocationByCity(cityName);
-                        print(weatherData);
+                        //print(weatherData);
                         UpdateUI(weatherData);
                       }
                     },
