@@ -1,16 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:1:1-36:12
-INJECTED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:1:1-36:12
-INJECTED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:1:1-36:12
-INJECTED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:1:1-36:12
-MERGED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:1:1-36:12
+ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:1:1-37:12
+INJECTED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:1:1-37:12
+INJECTED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:1:1-37:12
+INJECTED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:1:1-37:12
+MERGED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:1:1-37:12
 MERGED from [:geolocator] E:\deviceapp\projects\Q-Climate\build\geolocator\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\8cf828cdde8a44406351ac4fb6b4eab1\play-services-location-17.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\503246db64dcbb120c121745b36c75fd\play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\277c5ac90097bfd87e498aa7aa7142e1\play-services-places-placereport-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1bb993f423a231c4153b82518fb742b5\play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1565dccda1c63a0d358dbb57d2f9086a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\9fe5c71ac53d3248c9ba7cf06de5e29d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\cb28eb37786c46aa315fbb0bc9e79ad7\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f1af6724f4620915405752d62143122a\activity-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e7dbd70914629c845196c3655d3bfc05\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -33,11 +33,11 @@ INJECTED from E:\deviceapp\projects\Q-Climate\android\app\src\debug\AndroidManif
 		INJECTED from E:\deviceapp\projects\Q-Climate\android\app\src\debug\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml
-		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:1:1-36:12
+		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:1:1-37:12
 		INJECTED from E:\deviceapp\projects\Q-Climate\android\app\src\debug\AndroidManifest.xml
 	android:versionCode
 		INJECTED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml
-		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:1:1-36:12
+		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:1:1-37:12
 		INJECTED from E:\deviceapp\projects\Q-Climate\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:1:11-69
@@ -45,14 +45,18 @@ uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:3:5-81
 	android:name
 		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:3:22-78
-uses-permission#android.permission.INTERNET
-ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:4:5-66
-MERGED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:4:5-66
-MERGED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:4:5-66
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:4:5-79
 	android:name
-		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:4:22-64
+		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:4:22-76
+uses-permission#android.permission.INTERNET
+ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:5:5-66
+MERGED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:5:5-66
+MERGED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:10:5-35:19
+ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:11:5-36:19
 MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\8cf828cdde8a44406351ac4fb6b4eab1\play-services-location-17.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\8cf828cdde8a44406351ac4fb6b4eab1\play-services-location-17.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\503246db64dcbb120c121745b36c75fd\play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
@@ -61,8 +65,8 @@ MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\277c5ac90097bfd87e498aa7aa7142e1\play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1bb993f423a231c4153b82518fb742b5\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1bb993f423a231c4153b82518fb742b5\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1565dccda1c63a0d358dbb57d2f9086a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1565dccda1c63a0d358dbb57d2f9086a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\9fe5c71ac53d3248c9ba7cf06de5e29d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\9fe5c71ac53d3248c9ba7cf06de5e29d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.core:core:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e91594602c73eba9f0c6fb1745d43dba\core-1.1.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e91594602c73eba9f0c6fb1745d43dba\core-1.1.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b1e5b3e7ff90977513d02b308ca82682\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
@@ -70,45 +74,45 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\HP
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e91594602c73eba9f0c6fb1745d43dba\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:11:9-30
+		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:12:9-30
 	android:icon
-		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:12:9-43
+		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:13:9-43
 activity#co.appbrewery.clima.MainActivity
-ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:13:9-34:20
+ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:14:9-35:20
 	android:launchMode
-		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:15:13-43
+		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:16:13-43
 	android:hardwareAccelerated
-		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:18:13-47
+		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:19:13-47
 	android:windowSoftInputMode
-		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:19:13-55
+		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:20:13-55
 	android:configChanges
-		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:17:13-144
+		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:18:13-144
 	android:theme
-		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:16:13-47
+		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:17:13-47
 	android:name
-		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:14:13-41
+		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:15:13-41
 meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
-ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:24:13-26:40
+ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:25:13-27:40
 	android:value
-		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:26:17-37
+		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:27:17-37
 	android:name
-		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:25:17-82
+		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:26:17-82
 meta-data#flutterEmbedding
-ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:27:13-29:37
+ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:28:13-30:37
 	android:value
-		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:29:17-34
+		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:30:17-34
 	android:name
-		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:28:17-48
+		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:29:17-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:30:13-33:29
+ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:31:13-34:29
 action#android.intent.action.MAIN
-ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:31:17-68
+ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:32:17-68
 	android:name
-		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:31:25-66
+		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:32:17-76
+ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:33:17-76
 	android:name
-		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:32:27-74
+		ADDED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml:33:27-74
 uses-sdk
 INJECTED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\deviceapp\projects\Q-Climate\android\app\src\main\AndroidManifest.xml
@@ -123,8 +127,8 @@ MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\277c5ac90097bfd87e498aa7aa7142e1\play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1bb993f423a231c4153b82518fb742b5\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1bb993f423a231c4153b82518fb742b5\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1565dccda1c63a0d358dbb57d2f9086a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1565dccda1c63a0d358dbb57d2f9086a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\9fe5c71ac53d3248c9ba7cf06de5e29d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\9fe5c71ac53d3248c9ba7cf06de5e29d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\cb28eb37786c46aa315fbb0bc9e79ad7\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\cb28eb37786c46aa315fbb0bc9e79ad7\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f1af6724f4620915405752d62143122a\activity-1.0.0\AndroidManifest.xml:20:5-22:41
@@ -168,8 +172,8 @@ ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradl
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\503246db64dcbb120c121745b36c75fd\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1565dccda1c63a0d358dbb57d2f9086a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\9fe5c71ac53d3248c9ba7cf06de5e29d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1565dccda1c63a0d358dbb57d2f9086a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\9fe5c71ac53d3248c9ba7cf06de5e29d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1565dccda1c63a0d358dbb57d2f9086a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\9fe5c71ac53d3248c9ba7cf06de5e29d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58

@@ -55,15 +55,22 @@ class _CityScreenState extends State<CityScreen> {
                   ),
                 ),
 
-              FlatButton(
-                onPressed: () {
-                  Navigator.pop(context,cityName);
-                },
-                child: Text(
-                  'Get Weather',
-                  style: kButtonTextStyle,
-                ),
+               Padding(
+                 padding: const EdgeInsets.all(10.0),
+                 child: FlatButton(
+                   color:Colors.greenAccent,
+                    shape:RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
+                    onPressed: () {
+                    Navigator.pop(context,cityName);
+                  },
+
+                  child: Text(
+                    'Get Weather',
+                    style: kButtonTextStyle,
+
               ),
+              ),
+               ),
             ],
           ),
         ),

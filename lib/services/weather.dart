@@ -14,7 +14,6 @@ class WeatherModel {
   Future getLocationData() async {
     Location location = Location();
     await location.getCurrentLocation();
-    //print('http://api.openweathermap.org/data/2.5/weather?lat=${location.latitude}&lon=${location.longitude}&appid=$ApiKey&units=metric');
     var weatherData=await NetworkingHelper('http://api.openweathermap.org/data/2.5/weather?lat=${location.latitude}&lon=${location.longitude}&appid=$ApiKey&units=metric').getData();
 
     return weatherData;

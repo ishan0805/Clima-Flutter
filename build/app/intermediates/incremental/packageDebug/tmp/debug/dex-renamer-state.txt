@@ -1,4 +1,4 @@
-#Mon Nov 09 11:59:44 IST 2020
+#Sun Dec 13 14:44:18 IST 2020
 base.0=E\:\\deviceapp\\projects\\Q-Climate\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
