@@ -2,10 +2,12 @@
 
 ## What I created
 
-I tried to make a weather app inspired by the beautiful designs made by [Olia Gozha](https://dribbble.com/shots/4663154-
-<a href="https://imgflip.com/gif/4wh1jv">via Imgflip</a>
+I tried to make a weather app inspired by the beautiful designs made by [Olia Gozha](https://dribbble.com/shots/4663154-).
 
-## What you will learn
+![Finished App](https://github.com/ishan0805/Clima-Flutter/blob/master/images/climaApp.gif)
+
+
+## What I learned
 
 - How to use Dart to perform asynchronous tasks.
 - Understand async and await.
