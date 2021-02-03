@@ -2,9 +2,8 @@
 
 ## What I created
 
-I tried to make a weather app inspired by the beautiful designs made by [Olia Gozha](https://dribbble.com/shots/4663154-).
-
-<div style="width:260px;max-width:100%;"><div style="height:0;padding-bottom:185.38%;position:relative;"><iframe width="260" height="482" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameBorder="0" src="https://imgflip.com/embed/4wh1jv"></iframe></div><p><a href="https://imgflip.com/gif/4wh1jv">via Imgflip</a></p></div>
+I tried to make a weather app inspired by the beautiful designs made by [Olia Gozha](https://dribbble.com/shots/4663154-
+<a href="https://imgflip.com/gif/4wh1jv">via Imgflip</a>
 
 ## What you will learn
 
